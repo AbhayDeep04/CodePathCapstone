@@ -1,0 +1,94 @@
+/* PostCard.css */
+
+.post-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px; /* Adjust the negative margin as needed */
+  }
+  
+  .card {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px; /* Add margin to separate cards vertically */
+    flex: 0 0 calc(33.333% - 15px); /* Adjust the width as needed (3 cards per row) */
+    margin-right: 15px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 15px;
+  }
+  
+  .post-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .view-info-link {
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .view-info-link:hover {
+    text-decoration: underline;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .upvote-button,
+  .delete-button,
+  .edit-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upvote-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .upvote-button:hover {
+    background-color: #218838;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .edit-button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800;
+  }
+  

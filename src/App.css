@@ -1,0 +1,138 @@
+/* App.css */
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-image: url('./back.jpg'); /* Specify the path to your background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-position: center; /* Center the background image */
+}
+
+.navbar {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-form {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.create-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 1em;
+}
+
+.create-button:hover {
+  background-color: #218838;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.sort-button,
+.search-button {
+  margin: 1em;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sort-button:hover,
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.posts-section {
+  margin-top: 20px;
+}
+
+.post-card {
+  margin-bottom: 20px;
+}
+
+.post-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-page {
+  margin-top: 20px;
+}
+
+.comment-form {
+  margin-top: 20px;
+}
+
+.comment-card {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.comment-card p {
+  margin: 0;
+}
+
+.upvote-button,
+.delete-button,
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.upvote-button:hover,
+.delete-button:hover,
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.my-post{
+  display: flex;
+  justify-content: space-between;
+}
